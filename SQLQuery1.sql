@@ -1,0 +1,1 @@
+﻿DBCC CHECKIDENT ('tablo_adi', RESEED, 0);

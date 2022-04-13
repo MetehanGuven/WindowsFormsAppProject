@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsFormsAppProject
 {
-    public partial class Form1 : Form
+    public partial class FormProfile : Form
     {
-        public Form1()
+        public FormProfile()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Main().Show();
+            this.Hide();
         }
     }
 }
